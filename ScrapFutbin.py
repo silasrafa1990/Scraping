@@ -16,8 +16,8 @@ for page_num in range(1, num_pages + 1):
     url = base_url.format(page_num)
 
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                      'Chrome/91.0.4472.124 Safari/537.36'}
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/527.36 (KHTML, like Gecko) '
+                      'Chrome/91.0.22333.255 Safari/578.36'}
 
     response = requests.get(url, headers=headers)
 
